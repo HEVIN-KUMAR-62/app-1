@@ -1,0 +1,28 @@
+body{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  background-color: aqua;
+}
+.main{
+  width: 100%;
+  height: 100vh;
+}
+.photo{
+  border: 2px solid black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+img{
+  width: 500px;
+  height: 500px;
+}
+.btn{
+display: flex;
+justify-content: center;
+gap: 10px;
+}
+.btn button{
+  width: 100px;
+  height: 50px;
+}
